@@ -26,20 +26,39 @@ public class Main {
             }
 
             int age1 = 2;
-            if( age1 >= 2 && age1 <= 6) {
+            if (age1 >= 2 && age1 <= 6) {
                 System.out.println("Если возраст равен" + age1 + " ему нужно ходить в садик");
-            } else if (age1 >=7 && age1 <=17) {
+            } else if (age1 >= 7 && age1 <= 17) {
                 System.out.println("Если возраст равен" + age1 + "ему нужно ходить в школу");
-            } else if (age1 >=18 && age1 <+24) {
+            } else if (age1 >= 18 && age1 < +24) {
                 System.out.println("Если возраст равен" + age1 + "ему нужно ходить в институт");
             } else {
                 System.out.println("Если возраст равен" + age1 + " ему нужно ходить на работу");
             }
 
+
+            int ageThree = 7;
+            boolean adult = true;
+            if(ageThree < 5) {
+                System.out.println("Если возраст ребенка " + ageThree + " он не может кататься");
+            } else if (ageThree >= 5 && ageThree< 14) {
+                if (adult) {
+                    System.out.println("Если возраст ребенка" + ageThree + " только в сопровождении взрослых");
+                } else {
+                    System.out.println("Если возраст ребенка " + ageThree + " нельзя кататься без сопровождения взрослых");
+                }
+            } else {
+                System.out.println("Если возраст ребенка" + ageThree + "можно кататься без сопровождения взрослого");
             }
 
+
+            }
         }
+
         }
+
+
+
 
 
 
