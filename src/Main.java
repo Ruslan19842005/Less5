@@ -4,7 +4,28 @@ public class Main {
 
         int age = 18;
         if(age <= 18) {
-            System.out.println("Если 18 + age+ можно водить");
+            System.out.println("Если 18 + age + можно водить");
+        if(age < 18) {
+            System.out.println(" Если нет 18 + age + не можешь водить ");
         }
-    }
-}
+
+
+
+         int temperature = 4;
+         if( temperature < 5 ) {
+             System.out.println("На улице" + temperature + " градусов,нужно надеть шапку");
+            } else {
+             System.out.println("На улице" + temperature + " градусов,можно идти без шапки");
+         }
+
+
+
+
+
+
+         }
+
+        }
+
+        }
+
