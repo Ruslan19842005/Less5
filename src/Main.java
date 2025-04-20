@@ -19,6 +19,17 @@ public class Main {
          }
 
 
+         int speed =  81;
+         if(speed > 60) {
+             System.out.println("Если скорость"  + speed + "придется платить штраф");
+         } else {
+             System.out.println("Если скорость" + speed + "штрафа не будет");
+         }
+
+
+
+
+
 
 
 
