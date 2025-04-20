@@ -39,9 +39,9 @@ public class Main {
 
             int ageThree = 7;
             boolean adult = true;
-            if(ageThree < 5) {
+            if (ageThree < 5) {
                 System.out.println("Если возраст ребенка " + ageThree + " он не может кататься");
-            } else if (ageThree >= 5 && ageThree< 14) {
+            } else if (ageThree >= 5 && ageThree < 14) {
                 if (adult) {
                     System.out.println("Если возраст ребенка" + ageThree + " только в сопровождении взрослых");
                 } else {
@@ -52,10 +52,39 @@ public class Main {
             }
 
 
+
+            int passengers = 75;
+            if (passengers <= 60) {
+                System.out.println("Если в вагоне " + passengers + " пассажиров, то есть сидячие места");
+            } else if (passengers <= 102) {
+                System.out.println("Если в вагоне " + passengers + " пассажиров, то есть стоячие места");
+            } else {
+                System.out.println("Если в вагоне " + passengers + " пассажиров, то вагон полностью забит");
             }
-        }
+            }
 
         }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
